@@ -14,7 +14,7 @@ package net.hasnext.experiment.web
 
       println(httpRequest)
 
-      response.getWriter().write("Message of the day!")
+      response.getWriter().write("QOTD: Static Typing Where Possible, Dynamic Typing When Needed")
     }
 
     def destroy() : Unit = {
