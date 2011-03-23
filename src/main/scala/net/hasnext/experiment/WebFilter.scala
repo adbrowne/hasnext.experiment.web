@@ -14,7 +14,7 @@ package net.hasnext.experiment.web
 
       println(httpRequest)
 
-      response.getWriter().write("> Howdy world wide web!")
+      response.getWriter().write("Message of the day!")
     }
 
     def destroy() : Unit = {
