@@ -14,7 +14,9 @@ package net.hasnext.experiment.web
 
       println(httpRequest)
 
-      response.getWriter().write("QOTD: Static Typing Where Possible, Dynamic Typing When Needed")
+      response.getWriter().write("""Q:  Why did the programmer call his mother long distance?
+        A:  Because that was her name.""")
+
     }
 
     def destroy() : Unit = {
