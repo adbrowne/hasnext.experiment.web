@@ -26,7 +26,7 @@ class RouteSpec extends Spec with ShouldMatchers {
   describe("A route") {
     describe("(when empty)") {
       val myRoute = new MyRoute
-      it("should return blank") {
+      it("should return None") {
         myRoute.getUrl(new Object) should be (None)
       }
     }
