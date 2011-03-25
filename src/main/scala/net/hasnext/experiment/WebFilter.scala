@@ -15,7 +15,7 @@ package net.hasnext.experiment.web
       println(httpRequest)
 
       response.getWriter().write("""Q:  Why did the programmer call his mother long distance?
-A:  Because that was her name.""")
+A:  Because that was her name. -- aaron was here""")
 
     }
 
